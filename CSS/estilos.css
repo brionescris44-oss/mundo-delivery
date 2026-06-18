@@ -1,0 +1,283 @@
+body{
+
+margin:0;
+font-family:Arial,sans-serif;
+
+}
+
+
+header{
+
+background:#4D118C;
+
+color:white;
+
+text-align:center;
+
+padding:60px 20px;
+
+}
+
+
+.logo{
+
+width:220px;
+
+margin-bottom:20px;
+
+}
+
+
+h1{
+
+color:#FFA300;
+
+font-size:50px;
+
+}nav{
+
+background:#4D118C;
+
+text-align:center;
+
+padding:15px;
+
+}
+
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin:0 15px;
+
+font-weight:bold;
+
+}
+
+
+nav a:hover{
+
+color:#FFA300;
+
+}.servicios{
+
+background:#f5f5f5;
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+
+.servicios h2{
+
+color:#4D1148;
+
+font-size:40px;
+
+}
+
+
+
+.contenedor-servicios{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+
+
+.tarjeta{
+
+background:white;
+
+width:250px;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+
+
+.tarjeta h3{
+
+color:#4D118C;
+
+font-size:25px;
+
+}
+
+
+
+.tarjeta p{
+
+line-height:1.6;
+
+}
+.nosotros{
+
+background: #4d118c;;
+
+color:white;
+
+text-align:center;
+
+padding:70px 20px;
+
+}
+
+
+
+.nosotros h2{
+
+color:#FFA300;
+
+font-size:40px;
+
+}
+
+
+
+.nosotros p{
+
+max-width:800px;
+
+margin:20px auto;
+
+font-size:18px;
+
+line-height:1.8;
+
+}
+.contacto{
+
+background:#f5f5f5;
+
+text-align:center;
+
+padding:70px 20px;
+
+}
+
+
+.contacto h2{
+
+color:#4D1148;
+
+font-size:40px;
+
+}
+
+
+.contacto p{
+
+font-size:20px;
+
+}
+
+
+.boton-whatsapp{
+
+display:inline-block;
+
+margin-top:25px;
+
+background:#25D366;
+
+color:white;
+
+text-decoration:none;
+
+padding:15px 30px;
+
+border-radius:10px;
+
+font-weight:bold;
+
+}
+footer{
+
+background: #4d118c;;
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+}
+@media(max-width:700px){
+
+
+    h1{
+
+        font-size:35px;
+
+    }
+
+
+    .logo{
+
+        width:160px;
+
+    }
+
+
+    nav{
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+
+    nav a{
+
+        margin:5px;
+
+    }
+
+
+    .contenedor-servicios{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+    .tarjeta{
+
+        width:80%;
+
+    }
+
+
+    .slogan{
+
+        font-size:18px;
+
+    }
+
+
+}
