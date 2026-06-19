@@ -475,3 +475,55 @@ a:hover{
 letter-spacing:1px;
 
 }
+#servicios{
+
+padding:50px 20px;
+text-align:center;
+
+}
+
+
+.servicios-container{
+
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+
+.servicio-card{
+
+background:white;
+
+width:260px;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+
+.servicio-card h3{
+
+color:#4d118c;
+
+}
+
+
+.servicio-card p{
+
+color:#555;
+
+}
+
+
+.servicio-card:hover{
+
+transform:translateY(-10px);
+
+}
