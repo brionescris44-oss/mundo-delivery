@@ -19,13 +19,23 @@
     
 <nav>
 
-<a href="#inicio">Inicio</a>
+<div class="menu-icon">
+☰
+</div>
 
-<a href="#servicios">Servicios</a>
 
-<a href="#nosotros">Nosotros</a>
+<ul class="menu">
 
-<a href="#contacto">Contacto</a>
+<li><a href="#inicio">Inicio</a></li>
+
+<li><a href="#servicios">Servicios</a></li>
+
+<li><a href="#nosotros">Nosotros</a></li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+
 
 </nav>
 
@@ -41,12 +51,16 @@ Courier, recojo y entrega con más de 3 años de experiencia
 </p>
 
 </header>
+
 <section class="servicios" id="servicios">
 
     <section id="servicios">
 
 <h2>Nuestros Servicios</h2>
 
+<p class="subtitulo">
+Soluciones de delivery en todo momento.
+</p>
 
 <div class="servicios-container">
 
@@ -56,7 +70,7 @@ Courier, recojo y entrega con más de 3 años de experiencia
 <h3>📦 Recojo de paquetes</h3>
 
 <p>
-Recogemos tus productos desde tu negocio o domicilio.
+Recogemos tus productos y los entregamos de forma rápida y segura.
 </p>
 
 </div>
@@ -64,10 +78,10 @@ Recogemos tus productos desde tu negocio o domicilio.
 
 <div class="servicio-card">
 
-<h3>🛵 Entregas rápidas</h3>
+<h3>🛵 Delivery para negocios</h3>
 
 <p>
-Realizamos entregas seguras y rápidas en la ciudad.
+Servicio de reparto para restaurantes, licorerías y tiendas.
 </p>
 
 </div>
@@ -75,10 +89,10 @@ Realizamos entregas seguras y rápidas en la ciudad.
 
 <div class="servicio-card">
 
-<h3>🏢 Courier empresarial</h3>
+<h3>🏢 Aliado comercial</h3>
 
 <p>
-Soluciones de reparto para negocios y emprendedores.
+Apoyamos a empresas y emprendedores con logística confiable.
 </p>
 
 </div>
@@ -197,6 +211,21 @@ target="_blank">
 💬
 
 </a>
+
+<script>
+
+const boton = document.querySelector(".menu-icon");
+
+const menu = document.querySelector(".menu");
+
+
+boton.onclick = () => {
+
+menu.classList.toggle("active");
+
+};
+
+</script>
 
 </body>
 
