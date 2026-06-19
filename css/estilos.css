@@ -319,3 +319,49 @@ box-shadow:0 5px 15px rgba(0,0,0,0.3);
 transform:scale(1.1);
 
 }
+#ubicacion{
+
+padding:50px 20px;
+
+text-align:center;
+
+}
+
+
+#ubicacion iframe{
+
+border-radius:15px;
+
+margin-top:20px;
+
+}
+
+
+.boton-mapa{
+
+display:inline-block;
+
+margin-top:25px;
+
+background:#ffa300;
+
+color:#4d118c;
+
+padding:15px 25px;
+
+border-radius:30px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+.boton-mapa:hover{
+
+background:#4d118c;
+
+color:white;
+
+}
