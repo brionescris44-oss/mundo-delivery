@@ -365,3 +365,150 @@ background:#4d118c;
 color:white;
 
 }
+/* AJUSTES PARA CELULARES */
+
+@media (max-width:768px){
+
+
+body{
+    overflow-x:hidden;
+}
+
+
+/* menú */
+
+nav ul{
+
+    flex-direction:column;
+    text-align:center;
+    gap:15px;
+
+}
+
+
+/* títulos */
+
+h1{
+
+    font-size:32px;
+
+}
+
+
+h2{
+
+    font-size:26px;
+
+}
+
+
+/* secciones */
+
+section{
+
+    padding:35px 15px;
+
+}
+
+
+/* imágenes */
+
+.logo{
+
+    width:180px;
+
+}
+
+
+/* servicios */
+
+.servicios,
+.contenedor-testimonios{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+.testimonio{
+
+    width:90%;
+
+}
+
+
+/* mapa */
+
+#ubicacion iframe{
+
+    height:280px;
+
+}
+
+
+/* botón whatsapp */
+
+.whatsapp{
+
+    width:55px;
+    height:55px;
+    right:15px;
+    bottom:15px;
+
+}
+/* ANIMACIONES */
+
+section{
+
+animation: aparecer 0.8s ease;
+
+}
+
+
+@keyframes aparecer{
+
+from{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+/* tarjetas de servicios */
+
+.servicio{
+
+transition:0.3s;
+
+}
+
+
+.servicio:hover{
+
+transform:translateY(-8px);
+
+}
+
+
+/* botones */
+
+button,
+a{
+
+transition:0.3s;
+
+}
